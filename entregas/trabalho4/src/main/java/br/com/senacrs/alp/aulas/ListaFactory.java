@@ -12,6 +12,7 @@ public class ListaFactory {
 		Lista<T> resultado = null;
 		
 		//implementar
+		resultado = new MinhaLista<T>();
 		
 		return resultado;
 	}
