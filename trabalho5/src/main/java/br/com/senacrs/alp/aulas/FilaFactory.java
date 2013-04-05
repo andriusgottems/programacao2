@@ -10,6 +10,7 @@ public class FilaFactory {
 	public <T> Fila<T> criarFila() {
 		
 		Fila<T> resultado = null;
+		Integer t;
 		
 		//implementar
 		
