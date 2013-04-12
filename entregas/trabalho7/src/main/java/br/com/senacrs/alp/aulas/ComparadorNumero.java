@@ -6,8 +6,16 @@ public class ComparadorNumero implements Comparator<Integer>{
 
 	@Override
 	public int compare(Integer o1, Integer o2) {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		int par = 0;
+		
+		if (o1 % 2 == 0) {
+			par = o1;
+		} else {
+			par = o2;
+		}
+		
+		return par;
 	}
 
 }
