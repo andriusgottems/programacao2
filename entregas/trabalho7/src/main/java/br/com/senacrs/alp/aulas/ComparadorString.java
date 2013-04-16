@@ -8,7 +8,7 @@ public class ComparadorString implements Comparator<String>{
 	public int compare(String o1, String o2) {
 
 		
-		return 0;
+	return o2.compareTo(o1);
 	}
 
 	
