@@ -4,13 +4,9 @@ import java.util.Comparator;
 
 public class ComparadorNumero implements Comparator<Integer>{
 
-	private int resultado;
-	
 	@Override
 	public int compare(Integer o1, Integer o2) {
-		//0 igual 
-		//-1
-		//1
+
 	int resultado = 0;	
 		
 	if (par(o1) == par(o2)){
