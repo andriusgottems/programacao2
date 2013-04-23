@@ -7,29 +7,35 @@ public class Factory {
 	private Factory() {
 	}
 	
-	public Funcionario criarFuncionario(Departamento departamento, String nome, double salario) {
+	public Funcionario criarFuncionario(
+			Departamento departamento, 
+			String nome, 
+			double salario) {
 	
 		Funcionario resultado = null;
 		
-		//implementar
+		resultado = new MeuFuncionario(nome, departamento, salario);
 		
 		return resultado;
 	}
 	
-	public Departamento criarDepartamento(Empresa empresa, String nome) {
+	public Departamento criarDepartamento(
+			Empresa empresa, 
+			String nome) {
 	
 		Departamento resultado = null;
 		
-		//implementar
+		resultado = new MeuDepartamento(nome, empresa);
 		
 		return resultado;
 	}
 	
-	public Empresa criarEmpresa(String nome) {
+	public Empresa criarEmpresa(
+			String nome) {
 	
 		Empresa resultado = null;
 		
-		//implementar
+		resultado = new MinhaEmpresa(nome);
 		
 		return resultado;
 	}
