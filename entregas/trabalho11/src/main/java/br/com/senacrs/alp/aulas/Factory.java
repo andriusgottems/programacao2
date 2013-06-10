@@ -9,13 +9,12 @@ public class Factory {
 	
 	public ArquivoConfiguracao criarArquivoConfiguracao(String arquivoEntrada) {
 		
-		System.out.println(arquivoEntrada);
-		
 		ArquivoConfiguracao resultado = null;
-		
-		resultado = new LeituraArquivo();
-		
+
+		resultado = new LeituraArquivo(arquivoEntrada);
+
 		return resultado;
+		
 	}
 	
 	public static Factory getInstancia() {
