@@ -11,7 +11,11 @@ public class Factory {
 	
 		Configuracao resultado = null;
 		
-		//implementar
+		if(config == null){
+			throw new IllegalArgumentException();
+		}
+		
+		resultado = new MeuArquivoConf(config);
 		
 		return resultado;
 	}
