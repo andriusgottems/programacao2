@@ -1,7 +1,7 @@
 package br.com.senacrs.alp.aulas;
 
 public class Factory {
-	
+	 
 	private static final Factory instancia = new Factory();
 	
 	private Factory() {
