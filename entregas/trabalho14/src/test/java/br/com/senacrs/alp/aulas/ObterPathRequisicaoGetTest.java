@@ -36,8 +36,9 @@ public class ObterPathRequisicaoGetTest {
 	@Test
 	public void testCaminhoAbsolutoNull() {
 
-		obj.caminhoAbsoluto(null);
 		exception.expect(IllegalArgumentException.class);
+		obj.caminhoAbsoluto(null);
+		
 	}
 
 	@Test
